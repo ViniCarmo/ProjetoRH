@@ -60,7 +60,9 @@ public class Funcionario {
         this.salario = novoSalario;
         this.DataUltimoReajuste = LocalDate.now();
         }
-        
+
+    public void promover(Cargo novoCargo) {
+    }
 }
 
 
